@@ -7,7 +7,7 @@ def Menu(data,title="",numbered=False,filler=".",up="|",across="-",corner="0"):
         if dl % 2 == 1:
             data[d] = data[d] + filler
         if numbered:
-            data[d] = str(d+1) + "-" + data[d]
+            data[d] = str(d+1) + " - " + data[d]
         """
         #changes spaces to be filler, i decided that spaces looked nicer, might become an option when formatting is necessary
         ndata = ""
