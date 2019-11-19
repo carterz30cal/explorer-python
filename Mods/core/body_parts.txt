@@ -1,0 +1,4 @@
+part,torso{hp=50,resist=5,deathlost=yes;
+part,head{hp=15,resist=2,deathlost=yes;
+part,arm{hp=20,resist=3,deathlost=no;
+part,leg{hp=25,resist=4,deathlost=no;

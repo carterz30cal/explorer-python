@@ -1,0 +1,1 @@
+playertype,human peasant{body=human,startinglevel=1;
