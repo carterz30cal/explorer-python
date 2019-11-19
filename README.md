@@ -3,7 +3,7 @@ a complex game set in a world where fighting, corruption and profit are king
 featuring incredible modding support which is relatively quick and easy - just edit some text files
 
 Roadmap:
-First release
+v0001:
 - Can fight creatures + dismember them - dismemberment has no effects but death at this stage
 - Can go to shops - which apparently are in the middle of nowhere - and buy weapons using currency looted from creatures
 - Can die if essential body part gets dismembered
@@ -51,5 +51,6 @@ v0005:
 - can now drink alcohol - causes several bad effects on the battlefield. bar fights can now occur as well
 
 v0006:
-- work on this tomorrow 
-
+- drugs exist - can have adverse side effects if not careful when using them
+- drugs are quite expensive from shops 
+- some drugs have different effects to others

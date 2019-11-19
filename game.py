@@ -4,14 +4,27 @@ sys.path.insert(0, os.getcwd() + "/Libs")
 import ui
 version = "v0001"
 player_body = []
-
+parts = []
+materials = []
 
 def Tavern():
     raise Exception("TBA")
 def Settings():
     raise Exception("TBA")
-def Game():
+def LoadGame():
     pass
+def SaveGame():
+    pass
+def LoadModFiles():
+    pass
+def Setup():
+    pass
+
+def Game():
+    LoadModFiles()
+    Setup()
+    LoadGame()
+    
 def MainMenu():
     ui.Menu(["Dive In","Tavern","Settings"],"Ye Olde Menu",True)
     MainMenu_Select()
