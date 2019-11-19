@@ -1,4 +1,4 @@
-import random,math,os,sys
+import random,math,os,sys,glob
 sys.path.insert(0, os.getcwd() + "/Libs")
 # custom libraries
 import ui
@@ -6,7 +6,18 @@ version = "v0001"
 player_body = []
 parts = []
 materials = []
-
+bodies = []
+enemies = []
+### MOD DATA                                ###
+# [0] = ID                                     
+# [1] = data - split into further unsorted list
+###                                         ###
+def Get_Property(data,_property):
+    for d in data:
+        dsLite = d.split(":")
+        if dsLite[0].lower() == _property:
+            return dsLite[1]
+    return None
 def Tavern():
     raise Exception("TBA")
 def Settings():
@@ -16,7 +27,8 @@ def LoadGame():
 def SaveGame():
     pass
 def LoadModFiles():
-    pass
+    files = glob.glob("Mods/*/*.txt")
+    
 def Setup():
     pass
 
