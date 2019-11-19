@@ -1,13 +1,13 @@
 def Menu(data,title="",numbered=False,filler=".",up="|",across="-",corner="0"):
     longest=len(title)
     for d in range(len(data)):
+        if numbered:
+            data[d] = str(d+1) + " - " + data[d]
         dl = len(data[d])
         if dl > longest:
             longest = dl
         if dl % 2 == 1:
             data[d] = data[d] + filler
-        if numbered:
-            data[d] = str(d+1) + " - " + data[d]
         """
         #changes spaces to be filler, i decided that spaces looked nicer, might become an option when formatting is necessary
         ndata = ""
