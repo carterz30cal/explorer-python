@@ -9,7 +9,8 @@ v0001:
 - Can die if essential body part gets dismembered
 - Connected body parts fall off along with the parent
 - Can save/load character.
-
+- can mod in starting player bodies, body parts and enemies
+- rudimentary currency - just described as coins - will be changed later on
 v0002:
 - Dismemberment has side effects - blood loss, loss of accuracy, unconsciousness. 
 - Can knock/be knocked unconscious - you/the enemy gets multiple turns in a row
@@ -54,3 +55,53 @@ v0006:
 - drugs exist - can have adverse side effects if not careful when using them
 - drugs are quite expensive from shops 
 - some drugs have different effects to others
+- some drugs are recreational in use only and only boost mood, others improve combat performance, and others have niche uses. 
+- pain system - player + enemies can feel pain
+- procedurally generated alcohol now ties into the drug system, and has random effects which are unique to the random flower. 
+- random flowers can now be found in the environment and collected.
+
+v0007:
+- new world environment - yay environments outside of shops and battles
+- shop environment is seamless with world environment
+- construction! - currently can build brewing barrels, storage barrels and tool sharpening stations
+- sharp weapons blunt over time - either visit a blacksmith or build a tool sharpening station
+- certain shops now sell construction materials 
+- random flowers are now priced up depending on potency, rarity and effects and are sold in shops in bulk quantities
+- some flowers now produce the same type of alcohol as other flowers
+- npc/enemy naming system - produces strings that follow basic english language rules
+
+v0008:
+- shops can now be part of a corporation or chain
+- corporations own shops - shops deliver profits to them
+- chains are corporations with only one specific shop type
+- shops can specialise more now - some even sell just one or two items
+- bar fights are more complicated - they generate a backstory between two characters and pick a reason why they are fighting
+- more foliage in the world - grass, trees, fallen leaves. 
+- PLUGIN_MANAGER V1 - allows the game to run plugins upon opening game, and gives them contextual information that could be used in many different ways
+- plugins are also given the ability to edit the world and the environment on the next tick, as plugins can write to a .txt file and the game will read it the next tick and delete
+
+v0009:
+- oceans! can encounter large bodies of water on your travels
+- shipwreaks on shorelines - can find valuable goodies
+- commodities - valuable trinkets with little to no use other than trading.
+- character traits - become frail, a heavy drinker, light on your feet
+- snow in high places
+
+v0010:
+- can now own property in towns/villages/cities
+- more buildings! build walls, doors, windows, chests and industrial brewing barrels
+- npcs now have drug preferences - most hate all drugs but alcohol and then within the category of alcohol people like certain types more than others
+- can now haggle with npcs
+- ZOMBIES: creatures that are infected with the zombie plague - don't die till you destroy/dismember the brain! (dismembering the brain will create a weak zombie head which will continue to attack you)
+- corpses now rot - some rot into animated skeletons, weak enemies with many uses that will be explored in future updates
+
+v0011:
+- CRYPTS: spooky dungeon environments which are cold and wet. Inhabited by armored animated skeletons
+- crypts have good loot and many coins. 
+- seasons. experience snow in low areas in winter. also changes environmental effects and means that you must wear thermal protection during summer and winter. 
+- agriculture - random flowers now have growing periods and require certain soils - affects rarity and price of alcohols.
+- more traits: good haggler, quick builder, bone shatterer (makes skeletons easier to kill but also makes you more prone to damage)
+- more replaceable body parts avaliable
+
+v0012:
+- TBA
